@@ -1,7 +1,6 @@
 ---
-title: Welcome to Quartz
+title: Burger Math
 ---
 
-woah this is some mathy hsit oh my hag
-hi
+# test:
 [[ein]]
