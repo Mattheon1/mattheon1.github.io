@@ -1,4 +1,6 @@
 #!/bin/bash
+npx quartz build
 git add .
 git commit -m 'autosync'
 git push -u origin v4
+npx quartz build --serve
