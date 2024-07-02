@@ -33,9 +33,9 @@ $$
 - 5.)$\quad a(b\vec{u})=(ab)\vec{u}$
 
 
-- 6.)$1\vec{u}=\vec{u}$
+- 6.)$\quad1\vec{u}=\vec{u}$
 
-- 7.)$(a+b)(\vec{u}+\vec{v})=(a+b)\vec{u}+(a+b)\vec{v}=a(\vec{u}+\vec{v})+b(\vec{u}+\vec{v})=a\vec{u}+b\vec{u}+a\vec{v}+b\vec{v}$
+- 7.)$\quad(a+b)(\vec{u}+\vec{v})=(a+b)\vec{u}+(a+b)\vec{v}=a(\vec{u}+\vec{v})+b(\vec{u}+\vec{v})=a\vec{u}+b\vec{u}+a\vec{v}+b\vec{v}$
 
 ($\forall$  means for all, $\exists!$ means there exists only one, and $\in$ means within)
 
