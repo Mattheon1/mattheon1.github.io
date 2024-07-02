@@ -13,4 +13,8 @@ With all of that in mind, the first question we should answer is "What is a vect
 
 The most concise answer is that a vector $\vec {v}$ is an element of a vector space $\textbf{V}$. In order for a set $\textbf{V}$ to constitute a vector space, there is a list of requirements (called the vector axioms) which must be satisfied which are
 
-$\forall$   $(\vec{u},\vec{v},\vec{w}) \in\textbf{R}^n \quad \vec{u}+(\vec{v}+\vec{w})=(\vec{u}+\vec{v})+\vec{w}$
+$$
+\begin{gathered}
+\forall (\vec{u},\vec{v},\vec{w}) \in\textbf{R}^n \quad \vec{u}+(\vec{v}+\vec{w})=(\vec{u}+\vec{v})+\vec{w}
+\end{gathered}
+$$
