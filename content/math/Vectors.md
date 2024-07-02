@@ -11,10 +11,54 @@ Given the topics that will be covered in this guide, it may seem odd to start wi
 
 With all of that in mind, the first question we should answer is "What is a vector?"
 
-The most concise answer is that a vector $\vec {v}$ is an element of a vector space $\textbf{V}$. In order for a set $\textbf{V}$ to constitute a vector space, there is a list of requirements (called the vector axioms) which must be satisfied which are
+The most concise answer is that a vector $\vec {u}$ is an element of a vector space $\textbf{V}$. In order for a set $\textbf{V}$ to constitute a vector space, there is a list of requirements (called the vector axioms) that must be satisfied:
 
 $$
 \begin{gathered}
-\forall (\vec{u},\vec{v},\vec{w}) \in\textbf{R}^n \quad \vec{u}+(\vec{v}+\vec{w})=(\vec{u}+\vec{v})+\vec{w}
+\forall \{\vec{u},\vec{v},\vec{w}\}\in\textbf{V},
+\end{gathered}
+$$
+
+
+$$
+\begin{gathered}
+\vec{u}+(\vec{v}+\vec{w})=(\vec{u}+\vec{v})+\vec{w}
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+\vec{u}+\vec{v}=\vec{v}+\vec{u}
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+\exists!{\vec{0}}\in\textbf{V} \,s.t. \quad\vec{0}+\vec{u}=\vec{u}
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+\exists!(−{\vec{u}})\in\textbf{V} \,s.t. \quad(−\vec{u})+\vec{u}=\vec{0}
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+a(b\vec{u})=(ab)\vec{u}
+\end{gathered}
+$$
+
+
+$$
+\begin{gathered}
+1\vec{u}=\vec{u}
+\end{gathered}
+$$
+$$
+\begin{gathered}
+(a+b)(\vec{u}+\vec{v})=(a+b)\vec{u}+(a+b)\vec{v}=a(\vec{u}+\vec{v})+b(\vec{u}+\vec{v})
+=a\vec{u}+b\vec{u}+a\vec{v}+b\vec{v}
 \end{gathered}
 $$
