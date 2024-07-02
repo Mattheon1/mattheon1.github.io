@@ -62,3 +62,8 @@ $$
 =a\vec{u}+b\vec{u}+a\vec{v}+b\vec{v}
 \end{gathered}
 $$
+(If these symbols such as $\forall$ or $\exists$ are unfamiliar you can copy paste them into wikepedia to get their meanings)
+
+This definition is rather inclusive, and sets such as the set of nth degree polynomials or even $\{0\}$ are valid examples of vector spaces.
+
+As I said though this isn't a linear algebra review, for the purposes of this guide we'll only be working with finite dimensional vector spaces, and mostly with coordinate spaces such as $\textbf{R}^n$
