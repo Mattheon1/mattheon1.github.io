@@ -13,6 +13,8 @@ With all of that in mind, the first question we should answer is "What is a vect
 
 The most concise answer is that a vector $\vec {u}$ is an element of a vector space $\textbf{V}$. In order for a set $\textbf{V}$ to constitute a vector space, there is a list of requirements (called the vector axioms) that must be satisfied:
 
+---
+
 $$
 \begin{gathered}
 \forall \{\vec{u},\vec{v},\vec{w}\}\in\textbf{V},
@@ -20,50 +22,26 @@ $$
 $$
 
 
-$$
-\begin{gathered}
-\vec{u}+(\vec{v}+\vec{w})=(\vec{u}+\vec{v})+\vec{w}
-\end{gathered}
-$$
+- 1.)$\quad\vec{u}+(\vec{v}+\vec{w})=(\vec{u}+\vec{v})+\vec{w}$
 
-$$
-\begin{gathered}
-\vec{u}+\vec{v}=\vec{v}+\vec{u}
-\end{gathered}
-$$
+- 2.)$\quad\vec{u}+\vec{v}=\vec{v}+\vec{u}$
 
-$$
-\begin{gathered}
-\exists!{\vec{0}}\in\textbf{V} \,s.t. \quad\vec{0}+\vec{u}=\vec{u}
-\end{gathered}
-$$
+- 3.)$\quad\exists!{\vec{0}}\in\textbf{V} \,s.t. \quad\vec{0}+\vec{u}=\vec{u}$
 
-$$
-\begin{gathered}
-\exists!(−{\vec{u}})\in\textbf{V} \,s.t. \quad(−\vec{u})+\vec{u}=\vec{0}
-\end{gathered}
-$$
+- 4.)$\quad\exists!(−{\vec{u}})\in\textbf{V} \,s.t. \quad(−\vec{u})+\vec{u}=\vec{0}$
 
-$$
-\begin{gathered}
-a(b\vec{u})=(ab)\vec{u}
-\end{gathered}
-$$
+- 5.)$\quad a(b\vec{u})=(ab)\vec{u}$
 
 
-$$
-\begin{gathered}
-1\vec{u}=\vec{u}
-\end{gathered}
-$$
-$$
-\begin{gathered}
-(a+b)(\vec{u}+\vec{v})=(a+b)\vec{u}+(a+b)\vec{v}=a(\vec{u}+\vec{v})+b(\vec{u}+\vec{v})
-=a\vec{u}+b\vec{u}+a\vec{v}+b\vec{v}
-\end{gathered}
-$$
-(If these symbols such as $\forall$ or $\exists$ are unfamiliar you can copy paste them into wikepedia to get their meanings)
+- 6.)$1\vec{u}=\vec{u}$
 
-This definition is rather inclusive, and sets such as the set of nth degree polynomials or even $\{0\}$ are valid examples of vector spaces.
+- 7.)$(a+b)(\vec{u}+\vec{v})=(a+b)\vec{u}+(a+b)\vec{v}=a(\vec{u}+\vec{v})+b(\vec{u}+\vec{v})=a\vec{u}+b\vec{u}+a\vec{v}+b\vec{v}$
 
-As I said though this isn't a linear algebra review, for the purposes of this guide we'll only be working with finite dimensional vector spaces, and mostly with coordinate spaces such as $\textbf{R}^n$
+($\forall$  means for all, $\exists!$ means there exists only one, and $\in$ means within)
+
+---
+
+The definition I've given is broad and includes sets such as the set of nth degree polynomials or even $\{0\}$, however most applications of vectors deal with spaces that can be represented as either n-tuples or columns of numbers (such as $\textbf{R}^n$)
+
+A few other properties and definitions that come from the vector axioms are
+
