@@ -1,6 +1,6 @@
 ---
 title: Burger Math
 ---
-
-# test:
-[[ein]]
+---
+## Topics:
+[[Tensors|Tensors and Diff-Geo]]
