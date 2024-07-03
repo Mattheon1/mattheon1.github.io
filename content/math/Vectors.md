@@ -21,27 +21,32 @@ $$
 \end{gathered}
 $$
 
+- 1.)$\quad\vec{u}+\vec{v}\in\textbf{V}$,$\quad a\vec{u}\in\textbf{V}$   |   (Closure under vector addition and scalar multiplication)
 
-- 1.)$\quad\vec{u}+(\vec{v}+\vec{w})=(\vec{u}+\vec{v})+\vec{w}$
+- 2.)$\quad\vec{u}+(\vec{v}+\vec{w})=(\vec{u}+\vec{v})+\vec{w}$   |   (associativity of addition)
 
-- 2.)$\quad\vec{u}+\vec{v}=\vec{v}+\vec{u}$
+- 3.)$\quad\vec{u}+\vec{v}=\vec{v}+\vec{u}$   |   (commutativity of addition)
 
-- 3.)$\quad\exists!{\vec{0}}\in\textbf{V} \,s.t. \quad\vec{0}+\vec{u}=\vec{u}$
+- 4.)$\quad\exists!{\vec{0}}\in\textbf{V} \,s.t. \quad\vec{0}+\vec{u}=\vec{u}$   |   (existence of additive identity)
 
-- 4.)$\quad\exists!(−{\vec{u}})\in\textbf{V} \,s.t. \quad(−\vec{u})+\vec{u}=\vec{0}$
+- 5.)$\quad\exists!(−{\vec{u}})\in\textbf{V} \,s.t. \quad(−\vec{u})+\vec{u}=\vec{0}$   |   (existence of additive inverse)
 
-- 5.)$\quad a(b\vec{u})=(ab)\vec{u}$
+- 6.)$\quad a(b\vec{u})=(ab)\vec{u}$   |   (scalar multiplication is equivalent to [[https://en.wikipedia.org/wiki/Field_(mathematics)|Field]] multiplcation)
 
 
-- 6.)$\quad1\vec{u}=\vec{u}$
+- 7.)$\quad1\vec{u}=\vec{u}$   |   (multiplication by the identity element returns the vector original vector)
 
-- 7.)$\quad(a+b)(\vec{u}+\vec{v})=(a+b)\vec{u}+(a+b)\vec{v}=a(\vec{u}+\vec{v})+b(\vec{u}+\vec{v})=a\vec{u}+b\vec{u}+a\vec{v}+b\vec{v}$
+- 8.)$\quad(a+b)(\vec{u}+\vec{v})=(a+b)\vec{u}+(a+b)\vec{v}=a(\vec{u}+\vec{v})+b(\vec{u}+\vec{v})=a\vec{u}+b\vec{u}+a\vec{v}+b\vec{v}$   |   (scalar multiplication distributes)
 
 ($\forall$  means for all, $\exists!$ means there exists only one, and $\in$ means within)
 
+This definition is rather dense and includes sets not commonly thought of as vector spaces (such as the set of nth degree polynomials or even $\{0\}$), however for the majority of this section we wont need to reference it and will tend to focus on what most people imagine when thinking of a vector space, [[https://en.wikipedia.org/wiki/Euclidean_vector|Euclidean vector spaces]] .
+
 ---
+## Linear Combinations and span
 
-The definition I've given is broad and includes sets such as the set of nth degree polynomials or even $\{0\}$, however most applications of vectors deal with spaces that can be represented as either n-tuples or columns of numbers (such as $\textbf{R}^n$)
+After showing that a set $\textbf {V}$ is a vector space, the next natural step
 
-A few other properties and definitions that come from the vector axioms are
+
+
 
