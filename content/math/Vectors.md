@@ -69,7 +69,7 @@ $$
 
 Where each coefficient could be any arbitray scalar. Also take not that since $\textbf{V}$ is closed under both addition and multiplication, a linear combination of vectors is itself a vector. Because generality is usually rewarded in mathematics, it's often more fruitful to consider the set of all possible linear combinations of a given set of vectors. Exploring this idea further brings us to the concept of span.
 
-Formally the span of a set of vectors $S$ within a space $\textbf{V}$ over a  [[https://en.wikipedia.org/wiki/Field_(mathematics)|Field]] ${\textbf{F}}$ can be defined as:
+Formally the span of a set of vectors $S$ is a subset of a space $\textbf{V}$ over a  [[https://en.wikipedia.org/wiki/Field_(mathematics)|Field]] ${\textbf{F}}$, which can be defined as:
 
 $$
 \begin{gathered}
@@ -79,9 +79,31 @@ span(S)= \left\{
 \end{gathered}
 $$
 
+The span of a set of vectors is special as far as subsets of $\textbf{V}$ go in that it can be demonstrated to have its own vector space strucutre. All axioms dealing with the properties of operations are automatically met as a subset of a $\textbf{V}$, and the remaining two axioms (existence of additive inverse and identity) can be shown to be satisfied in the following ways:
+
+#### Additive Inverse
+
+$$
+\begin{gathered}
+let \,\sum_{i=1}^nc_{i}\vec{u}_{i}\equiv\vec{v}. \\ \\\forall\vec{v}\in span(S),\\\\ -\vec{v}=-\left(\sum_{i=1}^nc_{i}\vec{u}_{i}\right) =\sum_{i=1}^n(-c_{i})\vec{u}_{i}\,,\\\\ \sum_{i=1}^n(-c_{i})\vec{u}_{i}\in span(S)
+\end{gathered}
+$$
+
+#### Additive identity
+
+$$
+\begin{gathered}
+\vec{0}=\sum_{i=1}^n\vec{0}=\sum_{i=1}^n0\vec{u}_{i}\, ,\\\\\sum_{i=1}^{n}0\vec{u}_{i}\in span(S)
+\end{gathered}
+$$
+
+Thus given any set of vectors in $\textbf{V}$, the span of the set is simultaneously a subset of $\textbf{V}$ and a   vector space of its own. All such subsets are referred to as subspaces and are generally assumed to be subsets of larger vector spaces (though all vectors spaces are technically subspaces of themselves)
+
 ---
-## Coordinate Bases for Euclidian Vector Spaces
+## Linear Independence and Vector Bases
+For any subspace $\textbf{W}$ of a vector space $\textbf{V}$, there are infinitely many choices of spanning sets $S \,\,s.t. \,span(S)=\textbf{W}$.
 
+This is because the addition of a linear combination of vectors already in $S$ doesn't change the span of $S$, but still results in a completely new spanning set. If there is no upper bound for size of spanning  sets, is there a lower bound?
+#### 
 
-
-
+## Coordinate Bases for Euclidian Vector Spaces 
