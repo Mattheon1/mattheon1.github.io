@@ -58,7 +58,7 @@ This definition is rather dense and includes sets not commonly thought of as vec
 
 The vector axioms define the properties of scalar multiplcation and vector addition, but often we'll seek to make use of both operations at once. This leads us to the more general concept of a linear combination.
 
-A linear combination of vectors is simply just a sum of vectors weighted by scalar coefficients. Given any indexable set of vectors from $\textbf{V}$ $\{\vec{u}_1,...,\vec{u}_n\}$ we can compactly represent any linear combination of vectors within this set like: 
+A linear combination of vectors is simply just a sum of vectors weighted by scalar coefficients. Given any indexable set of vectors from $\textbf{V}$ $\{\vec{u}_1,...,\vec{u}_n\}$ (denoted $S$) we can compactly represent any linear combination of vectors within this set like: 
 
 $$
 \begin{gathered}
@@ -67,9 +67,9 @@ $$
 $$
 
 
-Where each coefficient could be any arbitray scalar. Also take not that since $\textbf{V}$ is closed under both addition and multiplication, a linear combination of vectors is itself a vector. Because generality is usually rewarded in mathematics, it's often more fruitful to consider the set of all possible linear combinations of a given set of vectors. Exploring this idea further brings us to the concept of span.
+Where each coefficient could be any arbitray scalar. Also take not that since $\textbf{V}$ is closed under both addition and multiplication, a linear combination of vectors is itself a vector. There isn't much added benefit that comes from discussing specific linear combinations of vectors, as they are already fully described by the vector axioms. The main benefit of defining a linear combination as we have is the ability to construct the set of all linear combinations of a given set $S$, which we call the span.
 
-Formally the span of a set of vectors $S$ is a subset of a space $\textbf{V}$ over a  [[https://en.wikipedia.org/wiki/Field_(mathematics)|Field]] ${\textbf{F}}$, which can be defined as:
+Formally the span of a subset $S$ of a vector space $\textbf{V}$ over a  [[https://en.wikipedia.org/wiki/Field_(mathematics)|Field]] ${\textbf{F}}$ can be defined as:
 
 $$
 \begin{gathered}
@@ -103,7 +103,17 @@ Thus given any set of vectors in $\textbf{V}$, the span of the set is simultaneo
 ## Linear Independence and Vector Bases
 For any subspace $\textbf{W}$ of a vector space $\textbf{V}$, there are infinitely many choices of spanning sets $S \,\,s.t. \,span(S)=\textbf{W}$.
 
-This is because the addition of a linear combination of vectors already in $S$ doesn't change the span of $S$, but still results in a completely new spanning set. If there is no upper bound for size of spanning  sets, is there a lower bound?
+This can be easily shown as 
+
+$$
+\begin{gathered}
+\text{span}({\vec{u}_1,...,\vec{u}_n})
+\end{gathered}
+$$
+
+While there is no way to bound the number of sets that span the same subspace, we can place a limit on the minimum size.
+
+Given a set S = \{\vec{u}_1,...\vec{u}_n\}$
 #### 
 
 ## Coordinate Bases for Euclidian Vector Spaces 
