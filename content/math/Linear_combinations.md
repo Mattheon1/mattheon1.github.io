@@ -45,3 +45,14 @@ $$
 $$
 
 Thus given any set of vectors in $\textbf{V}$, the span of the set is simultaneously a subset of $\textbf{V}$ and a   vector space of its own. All such subsets are referred to as subspaces and are generally assumed to be subsets of larger vector spaces (though all vectors spaces are technically subspaces of themselves)
+
+The span of a set of vectors is not unique however. Take two sets in $\textbf{V}$, $\{\vec{u}_{1},...,\vec{u}_{n}\}$ and $\{\vec{u}_{1},...\vec{u}_n+\vec{u}_1\}$ (Denoted $S_1$ and $S_2$ respectively).
+
+$$
+\begin{gathered}
+span(S_{1})= \left\{\displaystyle\sum_{i=1}^nc_{i}\vec{u}_{i}\middle|c_{i}\in\textbf{F}\right\}, \\[1em]\\
+span(S_{2})= \left\{\left(\displaystyle\sum_{i=1}^{n-1}c_{i}\vec{u}_{i}\right)+c_n\left(\vec{u}_{n}+\vec{u}_{1}\right)\middle|c_{i}\in\textbf{F}\right\}.
+\end{gathered}
+$$ 
+
+We can pretty easily see that the span of both sets should be the same, as we could redefine $c_{1}\equiv c_{1}+c_{n}$ and represent the span of the second set in exactly the same form as the first set.
