@@ -62,8 +62,8 @@ Similarly for a triplet of sets
 
 $$
 \begin{gathered}
-S_{1} \equiv \{\vec{u}_{1} \cdots, \vec{u}_{n}\} \text { and }
-S_{2} \equiv \left\{\sum_{i=1}^n b_{i}\vec{u}_i\right\}, \\
+S_{1} \equiv \{\vec{u}_{1} \cdots, \vec{u}_{n}\}, \,
+S_{2} \equiv \left\{\sum_{i=1}^n b_{i}\vec{u}_i\right\}, \text{ and }
 S_{3} \equiv S_{1} \cup S_{2}
 \end{gathered}
 $$
