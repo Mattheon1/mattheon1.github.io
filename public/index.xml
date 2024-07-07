@@ -6,23 +6,41 @@
       <description>Last 10 notes on Burger Institute of Technology (B.I.T.)</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Linear Independence</title>
+    <link>https://mattheon1.github.io/math/linear_independence</link>
+    <guid>https://mattheon1.github.io/math/linear_independence</guid>
+    <description>A linearly independent set A\equiv\{\vec{u}_1,\cdots,\vec{u}_n\} has the property that no element in A is a linear combination of any other elements (or lies within the span of ...</description>
+    <pubDate>Sun, 07 Jul 2024 21:55:46 GMT</pubDate>
+  </item><item>
+    <title>Vector_Bases</title>
+    <link>https://mattheon1.github.io/math/Vector_Bases</link>
+    <guid>https://mattheon1.github.io/math/Vector_Bases</guid>
+    <description></description>
+    <pubDate>Sun, 07 Jul 2024 21:55:14 GMT</pubDate>
+  </item><item>
+    <title>Euclidean_spaces</title>
+    <link>https://mattheon1.github.io/math/Euclidean_spaces</link>
+    <guid>https://mattheon1.github.io/math/Euclidean_spaces</guid>
+    <description></description>
+    <pubDate>Sun, 07 Jul 2024 21:52:32 GMT</pubDate>
+  </item><item>
     <title>Linear Combinations</title>
     <link>https://mattheon1.github.io/math/Linear_combinations</link>
     <guid>https://mattheon1.github.io/math/Linear_combinations</guid>
-    <description>The vector axioms define the properties of scalar multiplcation and vector addition, but often we’ll seek to make use of both operations at once. This leads us to the more general concept of a linear combination.</description>
-    <pubDate>Sun, 07 Jul 2024 16:05:17 GMT</pubDate>
+    <description>The vector axioms define the properties of scalar multiplication and vector addition, but often we’ll seek to make use of both operations at once. This leads us to the more general concept of a linear combination.</description>
+    <pubDate>Sun, 07 Jul 2024 20:02:58 GMT</pubDate>
+  </item><item>
+    <title>What is a Vector?</title>
+    <link>https://mattheon1.github.io/math/What_is_a_vector</link>
+    <guid>https://mattheon1.github.io/math/What_is_a_vector</guid>
+    <description>The most concise answer is that a vector \vec {u} is an element of a vector space \textbf{V}. In order for a set \textbf{V} to constitute a vector space, we require the existence of two operations on elements of \textbf{V} known as vector addition and scalar multiplication.</description>
+    <pubDate>Sun, 07 Jul 2024 19:18:00 GMT</pubDate>
   </item><item>
     <title>Vectors</title>
     <link>https://mattheon1.github.io/math/Vectors</link>
     <guid>https://mattheon1.github.io/math/Vectors</guid>
     <description>...</description>
-    <pubDate>Sun, 07 Jul 2024 06:16:29 GMT</pubDate>
-  </item><item>
-    <title>What is a Vector?</title>
-    <link>https://mattheon1.github.io/math/What_is_a_vector</link>
-    <guid>https://mattheon1.github.io/math/What_is_a_vector</guid>
-    <description>The most concise answer is that a vector \vec {u} is an element of a vector space \textbf{V}. In order for a set \textbf{V} to constitute a vector space, there is a list of requirements (called the vector axioms) that must be satisfied: \begin{gathered} \forall \{\vec{u},\vec{v},\vec{w}\}\in\textbf{V}, \end{gathered} 1.)\quad\vec{u}+\vec{v}\in\textbf{V},\quad a\vec{u}\in\textbf{V} | (Closure under vector addition and scalar multiplication) 2.)\quad\vec{u}+(\vec{v}+\vec{w})=(\vec{u}+\vec{v})+\vec{w} | (associativity of addition) 3.)\quad\vec{u}+\vec{v}=\vec{v}+\vec{u} | (commutativity of addition) 4.)\quad\exists!{\vec{0}}\in\textbf{V} \,s.t.</description>
-    <pubDate>Sat, 06 Jul 2024 14:44:22 GMT</pubDate>
+    <pubDate>Sun, 07 Jul 2024 19:02:28 GMT</pubDate>
   </item><item>
     <title>Tensors</title>
     <link>https://mattheon1.github.io/math/Tensors</link>
