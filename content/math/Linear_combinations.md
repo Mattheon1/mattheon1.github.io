@@ -46,7 +46,7 @@ $$
 
 Thus given any set of vectors in $\textbf{V}$, the span of the set is simultaneously a subset of $\textbf{V}$ and a   vector space of its own. All such subsets are referred to as subspaces and are generally assumed to be subsets of larger vector spaces (though all vectors spaces are technically subspaces of themselves)
 
-The span of a set of vectors is not unique however. For example, take two sets in $\textbf{V}$,
+The span of a set of vectors is not unique however. For example, take two sets in $\textbf{V}$:
 
 $$
 \begin{gathered}
@@ -58,24 +58,26 @@ $$
 
 We can pretty easily see that the span of both sets should be the same, as we could redefine $c_{1}\equiv c_{1}+c_{n}$ (since the coefficients $c_i$   are arbitrary) and construct the span of both sets in exactly the same form.
 
-Similarly for a triplet of sets
+Similarly for a triplet of sets:
 
 $$
 \begin{gathered}
 S_{1} \equiv \{\vec{u}_{1} \cdots, \vec{u}_{n}\}, \,
 S_{2} \equiv \left\{\sum_{i=1}^n b_{i}\vec{u}_i\right\}, \text{ and }
-S_{3} \equiv S_{1} \cup S_{2}
+S_{3} \equiv S_{1} \cup S_{2},
 \end{gathered}
 $$
+
+being a member of the union of two sets means an element is within either set, or tthe intersection of both. A vector being within the span of the union of two sets means the vector is a linear combination of members of either set, or both sets. Thus we can represent the spans of $S_{1}$ and the union $S_{1}\cup S_{2} like
 
 $$
 \begin{gathered}
 span(S_{1})= \left\{\displaystyle\sum_{i=1}^nc_{i}\vec{u}_{i}\middle|c_{i}\in\textbf{F}\right\}, \\[1em]\\
-span(S_{3})= \left\{\left(\displaystyle\sum_{i=1}^{n}a_{i}\vec{u}_{i}\right)+c\left(\displaystyle\sum_{j=1}^{n}b_{j}\vec{u}_{j}\right)\middle|a_{i},b_{j},c\in\textbf{F}\right\}.
+span(S_{3})= \left\{\left(\displaystyle\sum_{i=1}^{n}a_{i}\vec{u}_{i}\right)+c\left(\displaystyle\sum_{i=1}^{n}b_{i}\vec{u}_{i}\right)\middle|a_{i},b_{i},c\in\textbf{F}\right\}.
 \end{gathered}
 $$ 
 
-Like we had in the previous example we can combine both sums in the definition of $span(S_{3})$ by using the same index and redefining $a_{i}+c(b_{i})\equiv c_{i}$. Doing so we can see that once again both $S_{1}$ and $S_{3}$ have the same span.
+Like we had in the previous example we can combine both sums in the definition of $span(S_{3})$ by redefining $a_{i}+c(b_{i})\equiv c_{i}$. Doing so reduces the two sums into one and we can see both $S_{1}$ and $S_{3}$ have the same span.
 
 The first and second examples illustrate an important concept: the subspace spanned by a set of vectors is not unique. However, there is a crucial distinction between the two scenarios:
 
