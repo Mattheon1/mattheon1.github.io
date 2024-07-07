@@ -1,5 +1,6 @@
 ---
 title: Vector Bases and Coordinate Vectors
+---
 
 After having discussed vector spaces, linear combinations, span and linear inependence, we finally get to one of the most important concepts in linear algebra, that of a vector basis.
 
