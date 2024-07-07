@@ -50,7 +50,7 @@ The span of a set of vectors is not unique however. For example, take two sets i
 
 $$
 \begin{gathered}
-S_{1}=\{\vec{u}_{1},\cdots,\vec{u}_{n}\} \text{ and } S_{2}=\{\vec{u}_{1},\cdots,\vec{u}_n+\vec{u}_1\}. \\[1em]
+S_{1}\equiv\{\vec{u}_{1},\cdots,\vec{u}_{n}\} \text{ and } S_{2}\equiv\{\vec{u}_{1},\cdots,\vec{u}_n+\vec{u}_1\}. \\[1em]
 span(S_{1})= \left\{\displaystyle\sum_{i=1}^nc_{i}\vec{u}_{i}\middle|c_{i}\in\textbf{F}\right\}, \\[1em]
 span(S_{2})= \left\{\left(\displaystyle\sum_{i=1}^{n-1}c_{i}\vec{u}_{i}\right)+c_n\left(\vec{u}_{n}+\vec{u}_{1}\right)\middle|c_{i}, c_{n}\in\textbf{F}\right\}
 \end{gathered}
@@ -58,7 +58,15 @@ $$
 
 We can pretty easily see that the span of both sets should be the same, as we could redefine $c_{1}\equiv c_{1}+c_{n}$ (since the coefficients $c_i$   are arbitrary) and construct the span of both sets in exactly the same form.
 
-Similarly for a pair of sets $S_{1}\equiv\{\vec{u}_{1},\cdots,\vec{u}_{n}\}$,  $\,S_{2}\equiv\left\{\displaystyle\sum_{i=1}^nb_{i}\vec{u}_i\right\}$, $S_{3}\equiv S_{1}\cup S_{2}$
+Similarly for a triplet of sets
+
+$$
+\begin{gathered}
+S_{1} \equiv \{\vec{u}_{1} \cdots, \vec{u}_{n}\} \text { and }
+S_{2} \equiv \left\{\sum_{i=1}^n b_{i}\vec{u}_i\right\}, \\
+S_{3} \equiv S_{1} \cup S_{2}
+\end{gathered}
+$$
 
 $$
 \begin{gathered}
@@ -67,7 +75,55 @@ span(S_{3})= \left\{\left(\displaystyle\sum_{i=1}^{n}a_{i}\vec{u}_{i}\right)+c\l
 \end{gathered}
 $$ 
 
-Like we had in the previous example we can combine both sums in the definition of $span(S_{2})$ by using the same index for summation and redefining $a_{i}+c(b_{i})\equiv c_{i}$ once again making both sets have the same span.
+Like we had in the previous example we can combine both sums in the definition of $span(S_{3})$ by using the same index and redefining $a_{i}+c(b_{i})\equiv c_{i}$. Doing so we can see that once again both $S_{1}$ and $S_{3}$ have the same span.
 
-While the first and second example both showed how the subspace spanned by a set is not unique, there was an important distinction between the two. The first example left the [[https://en.wikipedia.org/wiki/Cardinality|cardinality]] of both sets the same, while the latter example increased it by one.
+The first and second examples illustrate an important concept: the subspace spanned by a set of vectors is not unique. However, there is a crucial distinction between the two scenarios:
 
+- In the first example, we have two sets with the same number of elements that span the same subspace. This demonstrates that different sets can generate the same span.
+- The second example involves adding a new element to an existing set without changing the span. This shows that adding certain elements to a set may not expand the subspace it generates.
+
+This distinction leads us to a fundamental property of sets of vectors known as linear independence.
+
+---
+Linear Independence
+---
+
+A linearly independent set $A\equiv\{\vec{u}_1,\cdots,\vec{u}_n\}$ has the property that no element in $A$ is a linear combination of any other elements (or lies within the span of the other elements). Symbolically this means 
+
+$$
+\begin{gathered}
+\forall \vec{u}_{i}\in A,\,\, \vec{u}_{i}\notin span(A\backslash\{\vec{u}_{i}\}).
+\end{gathered}
+$$
+
+Predictably, the complement to linear independence is known as linear dependence. A linearly dependent set of vectors contains elements which can be expressed as linear combinations of other elements in the set. Important to note is that no single element of a linearly dependent set is dependent, but rather they all are. This is because if we have a dependent set  $B\equiv\{\vec{v}_1,\cdots,\vec{v}_n\}$ and an equation expressing any one vector in $B$ like
+
+$$
+\begin{gathered}
+\vec{v}_{i}=\sum_{j\neq{i}}^{n}c_{j}\vec{v}_{j} \,,
+\end{gathered}
+$$
+
+then we can express some other vector in $B$ as a linear combinations of the other elements by first subtracting $\vec{v}_{i}$ from both sides to get the zero vector
+
+$$
+\begin{gathered}
+\vec{0}= \left(\sum_{j\neq{i}}^{n}c_{j}\vec{v}_{j} \right) -\vec{v}_{i}
+\end{gathered}
+$$
+
+and then subtracting from both sides some $c_{k}\vec{v}_k$ (with $c_{k}\ne 0$)
+
+$$
+\begin{gathered}
+(-c_{k})\vec{v}_k = \left(\sum_{\substack{j\neq{i} \\ j \neq k}}^{n} c_j \vec{v}_j\right) - \vec{v}_i
+\end{gathered}
+$$
+
+and finally multiplying both sides by $-\frac{1}{c_{k}}$ to get
+
+$$
+\begin{gathered}
+\vec{v}_k = -\frac{1}{c_k} \left(\left(\sum_{\substack{j\neq{i} \\ j \neq k}}^{n} c_j \vec{v}_j\right) - \vec{v}_i\right).
+\end{gathered}
+$$
