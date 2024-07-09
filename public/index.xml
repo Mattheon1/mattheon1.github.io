@@ -9,20 +9,20 @@
     <title>Vector Bases and Coordinate Vectors</title>
     <link>https://mattheon1.github.io/math/Vector_Bases</link>
     <guid>https://mattheon1.github.io/math/Vector_Bases</guid>
-    <description>After having discussed vector spaces, linear combinations, span and linear inependence, we finally get to one of the most important concepts in linear algebra, that of a vector basis ...</description>
-    <pubDate>Sun, 07 Jul 2024 23:58:39 GMT</pubDate>
+    <description>Building upon the concepts of vector spaces, linear combinations, span, and linear independence, we now delve into one of the most useful concepts in linear algebra: the vector basis ...</description>
+    <pubDate>Tue, 09 Jul 2024 05:18:10 GMT</pubDate>
   </item><item>
     <title>Linear Combinations</title>
     <link>https://mattheon1.github.io/math/Linear_combinations</link>
     <guid>https://mattheon1.github.io/math/Linear_combinations</guid>
     <description>The vector axioms define the properties of scalar multiplication and vector addition, but often we’ll seek to make use of both operations at once. This leads us to the more general concept of a linear combination.</description>
-    <pubDate>Sun, 07 Jul 2024 21:57:35 GMT</pubDate>
+    <pubDate>Mon, 08 Jul 2024 17:10:30 GMT</pubDate>
   </item><item>
     <title>Linear Independence</title>
     <link>https://mattheon1.github.io/math/linear_independence</link>
     <guid>https://mattheon1.github.io/math/linear_independence</guid>
     <description>A linearly independent set A\equiv\{\vec{u}_1,\cdots,\vec{u}_n\} has the property that no element in A is a linear combination of any other elements (or lies within the span of ...</description>
-    <pubDate>Sun, 07 Jul 2024 21:55:46 GMT</pubDate>
+    <pubDate>Mon, 08 Jul 2024 16:17:16 GMT</pubDate>
   </item><item>
     <title>Euclidean_spaces</title>
     <link>https://mattheon1.github.io/math/Euclidean_spaces</link>

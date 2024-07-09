@@ -45,7 +45,7 @@ $$
 \end{gathered}
 $$
 
-Thus given any set of vectors in $\textbf{V}$, the span of the set is simultaneously a subset of $\textbf{V}$ and a   vector space of its own. All such subsets are referred to as subspaces and are generally assumed to be subsets of larger vector spaces (though all vectors spaces are technically subspaces of themselves)
+Thus given any set of vectors in $\textbf{V}$, the span of the set is simultaneously a subset of $\textbf{V}$ and a vector space of its own. All such subsets are referred to as subspaces and are generally assumed to be subsets of larger vector spaces, though the span of a set could be the entire vector space itself (For the trivial example, $span(\{0\})=\{0\})$ )
 
 The span of a set of vectors is not unique however. For example, take two sets in $\textbf{V}$:
 
