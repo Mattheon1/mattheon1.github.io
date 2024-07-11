@@ -55,9 +55,10 @@ $$
 which is an equation expressing $\vec{v}_k$ in terms of a linear combination of other vectors in $B$, making $\vec{v}_k$ also a dependent element.
 
 ---
-One important fact regarding span and linear independence is that if you consider all possible spanning sets for a given subspace $\textbf{W}$ and focus on the ones with the smallest number of vectors, you'll discover that each of these minimal spanning is linearly independent.
+One important fact regarding span and linear independence is that if you consider all possible spanning sets for a given subspace $\textbf{W}$ and focus on the ones with the smallest number of vectors, you'll discover that each of these minimal spanning is linearly independent, and that all linearly independent spanning sets are minimal.
 
-A sketch of the proof for this comes from assuming the existence of a set $S\equiv\{\vec{u}_1,\cdots,\vec{u}_n\}$ that is both a minimal spanning set and linearly dependent.
+While we won't prove this claim outright here, we can provide some justification by examining the implications of the existence of a set $S\equiv\{\vec{u}_1,\cdots,\vec{u}_n\}$ that is both a minimal spanning set and linearly dependent.
+
 If $S$ were dependent, then we could express any one of the elements $\vec{u}_i$ as a linear combination of the others, as follows:
 
 $$

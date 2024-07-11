@@ -9,20 +9,26 @@
     <title>Vector Bases and Coordinate Vectors</title>
     <link>https://mattheon1.github.io/math/Vector_Bases</link>
     <guid>https://mattheon1.github.io/math/Vector_Bases</guid>
-    <description>Building upon the concepts of vector spaces, linear combinations, span, and linear independence, we now delve into one of the most useful concepts in linear algebra: the vector basis ...</description>
-    <pubDate>Wed, 10 Jul 2024 17:50:23 GMT</pubDate>
+    <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most powerful concepts in linear algebra: the vector ...</description>
+    <pubDate>Thu, 11 Jul 2024 06:09:48 GMT</pubDate>
   </item><item>
-    <title>Linear Combinations</title>
-    <link>https://mattheon1.github.io/math/Linear_combinations</link>
-    <guid>https://mattheon1.github.io/math/Linear_combinations</guid>
-    <description>The vector axioms define the properties of scalar multiplication and vector addition, but often we’ll seek to make use of both operations at once. This leads us to the more general concept of a linear combination.</description>
-    <pubDate>Mon, 08 Jul 2024 17:10:30 GMT</pubDate>
+    <title>Vector Bases and Coordinate Vectors</title>
+    <link>https://mattheon1.github.io/math/Vector_Bases_bk</link>
+    <guid>https://mattheon1.github.io/math/Vector_Bases_bk</guid>
+    <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most powerful concepts in linear algebra: the vector ...</description>
+    <pubDate>Thu, 11 Jul 2024 06:07:53 GMT</pubDate>
   </item><item>
     <title>Linear Independence</title>
     <link>https://mattheon1.github.io/math/linear_independence</link>
     <guid>https://mattheon1.github.io/math/linear_independence</guid>
     <description>A linearly independent set A\equiv\{\vec{u}_1,\cdots,\vec{u}_n\} has the property that no element in A is a linear combination of any other elements (or lies within the span of ...</description>
-    <pubDate>Mon, 08 Jul 2024 16:17:16 GMT</pubDate>
+    <pubDate>Thu, 11 Jul 2024 05:08:12 GMT</pubDate>
+  </item><item>
+    <title>Linear Combinations</title>
+    <link>https://mattheon1.github.io/math/Linear_combinations</link>
+    <guid>https://mattheon1.github.io/math/Linear_combinations</guid>
+    <description>The vector axioms define the properties of scalar multiplication and vector addition, but often we’ll seek to make use of both operations at once. This leads us to the more general concept of a linear combination.</description>
+    <pubDate>Thu, 11 Jul 2024 05:05:04 GMT</pubDate>
   </item><item>
     <title>Euclidean_spaces</title>
     <link>https://mattheon1.github.io/math/Euclidean_spaces</link>

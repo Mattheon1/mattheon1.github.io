@@ -69,12 +69,12 @@ S_{3} \equiv S_{1} \cup S_{2},
 \end{gathered}
 $$
 
-being a member of the union of two sets means an element is within either set, or tthe intersection of both. A vector being within the span of the union of two sets means the vector is a linear combination of members of either set, or both sets. Thus we can represent the spans of $S_{1}$ and the union $S_{1}\cup S_{2} like
+being a member of the union of two sets means an element is within either set, or tthe intersection of both. A vector being within the span of the union of two sets means the vector is a linear combination of members of either set, or both sets. Thus we can represent the spans of $S_{1}$ and the union $S_{1}\cup S_{2}$ like
 
 $$
 \begin{gathered}
 span(S_{1})= \left\{\displaystyle\sum_{i=1}^nc_{i}\vec{u}_{i}\middle|c_{i}\in\textbf{F}\right\}, \\[1em]\\
-span(S_{3})= \left\{\left(\displaystyle\sum_{i=1}^{n}a_{i}\vec{u}_{i}\right)+c\left(\displaystyle\sum_{i=1}^{n}b_{i}\vec{u}_{i}\right)\middle|a_{i},b_{i},c\in\textbf{F}\right\}.
+span(S_{3})= \left\{\left(\displaystyle\sum_{i=1}^{n}a_{i}\vec{u}_{i}\right)+c\left(\displaystyle\sum_{j=1}^{n}b_{j}\vec{u}_{j}\right)\middle|a_{i},b_{j},c\in\textbf{F}\right\}.
 \end{gathered}
 $$ 
 
