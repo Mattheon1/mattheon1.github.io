@@ -6,23 +6,47 @@
       <description>Last 10 notes on Burger Institute of Technology (B.I.T.)</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Linear Independence</title>
+    <link>https://mattheon1.github.io/math/linear_independence</link>
+    <guid>https://mattheon1.github.io/math/linear_independence</guid>
+    <description>A linearly independent set A\equiv\{\vec{u}_1,\cdots,\vec{u}_n\} has the property that no element in A is a linear combination of any other elements (or lies within the span of ...</description>
+    <pubDate>Thu, 11 Jul 2024 21:33:23 GMT</pubDate>
+  </item><item>
+    <title>Tensors</title>
+    <link>https://mattheon1.github.io/math/Tensors</link>
+    <guid>https://mattheon1.github.io/math/Tensors</guid>
+    <description> Sub-Topics Abstract vector space review Euclidean vector spaces.</description>
+    <pubDate>Thu, 11 Jul 2024 21:33:18 GMT</pubDate>
+  </item><item>
+    <title>Vectors</title>
+    <link>https://mattheon1.github.io/math/Vectors</link>
+    <guid>https://mattheon1.github.io/math/Vectors</guid>
+    <description>...</description>
+    <pubDate>Thu, 11 Jul 2024 21:30:48 GMT</pubDate>
+  </item><item>
+    <title>What is a Vector?</title>
+    <link>https://mattheon1.github.io/math/What_is_a_vector</link>
+    <guid>https://mattheon1.github.io/math/What_is_a_vector</guid>
+    <description>The most concise answer is that a vector \vec {u} is an element of a vector space \textbf{V}. In order for a set \textbf{V} to constitute a vector space, we require the existence of two operations on elements of \textbf{V} known as vector addition and scalar multiplication.</description>
+    <pubDate>Thu, 11 Jul 2024 21:27:16 GMT</pubDate>
+  </item><item>
+    <title>Vector Bases and Coordinate Vectors</title>
+    <link>https://mattheon1.github.io/math/Vector_Bases_test</link>
+    <guid>https://mattheon1.github.io/math/Vector_Bases_test</guid>
+    <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most fundamental concepts in linear algebra: the ...</description>
+    <pubDate>Thu, 11 Jul 2024 21:26:30 GMT</pubDate>
+  </item><item>
     <title>Vector Bases and Coordinate Vectors</title>
     <link>https://mattheon1.github.io/math/Vector_Bases</link>
     <guid>https://mattheon1.github.io/math/Vector_Bases</guid>
     <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most powerful concepts in linear algebra: the vector ...</description>
-    <pubDate>Thu, 11 Jul 2024 06:09:48 GMT</pubDate>
+    <pubDate>Thu, 11 Jul 2024 20:05:28 GMT</pubDate>
   </item><item>
     <title>Vector Bases and Coordinate Vectors</title>
     <link>https://mattheon1.github.io/math/Vector_Bases_bk</link>
     <guid>https://mattheon1.github.io/math/Vector_Bases_bk</guid>
     <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most powerful concepts in linear algebra: the vector ...</description>
     <pubDate>Thu, 11 Jul 2024 06:07:53 GMT</pubDate>
-  </item><item>
-    <title>Linear Independence</title>
-    <link>https://mattheon1.github.io/math/linear_independence</link>
-    <guid>https://mattheon1.github.io/math/linear_independence</guid>
-    <description>A linearly independent set A\equiv\{\vec{u}_1,\cdots,\vec{u}_n\} has the property that no element in A is a linear combination of any other elements (or lies within the span of ...</description>
-    <pubDate>Thu, 11 Jul 2024 05:08:12 GMT</pubDate>
   </item><item>
     <title>Linear Combinations</title>
     <link>https://mattheon1.github.io/math/Linear_combinations</link>
@@ -35,24 +59,6 @@
     <guid>https://mattheon1.github.io/math/Euclidean_spaces</guid>
     <description></description>
     <pubDate>Sun, 07 Jul 2024 21:52:32 GMT</pubDate>
-  </item><item>
-    <title>What is a Vector?</title>
-    <link>https://mattheon1.github.io/math/What_is_a_vector</link>
-    <guid>https://mattheon1.github.io/math/What_is_a_vector</guid>
-    <description>The most concise answer is that a vector \vec {u} is an element of a vector space \textbf{V}. In order for a set \textbf{V} to constitute a vector space, we require the existence of two operations on elements of \textbf{V} known as vector addition and scalar multiplication.</description>
-    <pubDate>Sun, 07 Jul 2024 19:18:00 GMT</pubDate>
-  </item><item>
-    <title>Vectors</title>
-    <link>https://mattheon1.github.io/math/Vectors</link>
-    <guid>https://mattheon1.github.io/math/Vectors</guid>
-    <description>...</description>
-    <pubDate>Sun, 07 Jul 2024 19:02:28 GMT</pubDate>
-  </item><item>
-    <title>Tensors</title>
-    <link>https://mattheon1.github.io/math/Tensors</link>
-    <guid>https://mattheon1.github.io/math/Tensors</guid>
-    <description> Sub-Topics Vector and Coordinate Bases.</description>
-    <pubDate>Tue, 02 Jul 2024 00:33:23 GMT</pubDate>
   </item><item>
     <title>Burger Math</title>
     <link>https://mattheon1.github.io/</link>

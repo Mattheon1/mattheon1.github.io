@@ -10,11 +10,11 @@ Instead, this review of some basic concepts in linear algebra serves two purpose
 
 - 1.) Disambiguate notation that will be commonly used throughout this website and introduce readers to a more abstract formulation than the matrix algebra they may be used to
 
-- 2.) Provide a smooth transition into the discussion of [[euclidean_vectors|Euclidean vector spaces]] and tensors
+- 2.) Provide a smooth transition into the discussion of [[Euclidean_spaces|Euclidean vector spaces]] and tensors
 
-From the second half onward, it will be assumed that you at least know what a vector is and some basic facts about vector spaces and operations on vector spaces.
+After this review of abstract vector spaces, it will be assumed that you know at least the basics of linear algebra and the properties of vector spaces.
 
-If you feel super confident in your knowledge and feel the first section would be a waste of time, [click here](#coordinate-bases-for-euclidian-vector-spaces).
+If you feel super confident in your knowledge and feel the first section would be a waste of time, [[Euclidean_spaces| click here]].
 
 
 If you want to go ahead with the vector review, then the first question we should ask ourselves is, [[What_is_a_vector|What is a vector?]]
