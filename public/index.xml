@@ -10,7 +10,7 @@
     <link>https://mattheon1.github.io/math/linear_independence</link>
     <guid>https://mattheon1.github.io/math/linear_independence</guid>
     <description>A linearly independent set A\equiv\{\vec{u}_1,\cdots,\vec{u}_n\} has the property that no element in A is a linear combination of any other elements (or lies within the span of ...</description>
-    <pubDate>Thu, 11 Jul 2024 21:33:23 GMT</pubDate>
+    <pubDate>Sat, 13 Jul 2024 04:53:12 GMT</pubDate>
   </item><item>
     <title>Tensors</title>
     <link>https://mattheon1.github.io/math/Tensors</link>
@@ -31,14 +31,14 @@
     <pubDate>Thu, 11 Jul 2024 21:27:16 GMT</pubDate>
   </item><item>
     <title>Vector Bases and Coordinate Vectors</title>
-    <link>https://mattheon1.github.io/math/Vector_Bases_test</link>
-    <guid>https://mattheon1.github.io/math/Vector_Bases_test</guid>
+    <link>https://mattheon1.github.io/math/Vector_Bases</link>
+    <guid>https://mattheon1.github.io/math/Vector_Bases</guid>
     <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most fundamental concepts in linear algebra: the ...</description>
     <pubDate>Thu, 11 Jul 2024 21:26:30 GMT</pubDate>
   </item><item>
     <title>Vector Bases and Coordinate Vectors</title>
-    <link>https://mattheon1.github.io/math/Vector_Bases</link>
-    <guid>https://mattheon1.github.io/math/Vector_Bases</guid>
+    <link>https://mattheon1.github.io/math/a</link>
+    <guid>https://mattheon1.github.io/math/a</guid>
     <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most powerful concepts in linear algebra: the vector ...</description>
     <pubDate>Thu, 11 Jul 2024 20:05:28 GMT</pubDate>
   </item><item>
@@ -47,6 +47,12 @@
     <guid>https://mattheon1.github.io/math/Vector_Bases_bk</guid>
     <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most powerful concepts in linear algebra: the vector ...</description>
     <pubDate>Thu, 11 Jul 2024 06:07:53 GMT</pubDate>
+  </item><item>
+    <title>Vector Bases and Coordinate Vectors</title>
+    <link>https://mattheon1.github.io/math/Poopy</link>
+    <guid>https://mattheon1.github.io/math/Poopy</guid>
+    <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most powerful concepts in linear algebra: the vector ...</description>
+    <pubDate>Thu, 11 Jul 2024 06:07:30 GMT</pubDate>
   </item><item>
     <title>Linear Combinations</title>
     <link>https://mattheon1.github.io/math/Linear_combinations</link>
@@ -59,12 +65,6 @@
     <guid>https://mattheon1.github.io/math/Euclidean_spaces</guid>
     <description></description>
     <pubDate>Sun, 07 Jul 2024 21:52:32 GMT</pubDate>
-  </item><item>
-    <title>Burger Math</title>
-    <link>https://mattheon1.github.io/</link>
-    <guid>https://mattheon1.github.io/</guid>
-    <description> Topics: Tensors and Diff-Geo.</description>
-    <pubDate>Tue, 02 Jul 2024 00:32:23 GMT</pubDate>
   </item>
     </channel>
   </rss>

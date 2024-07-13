@@ -72,7 +72,7 @@ Removing the element $\vec{u}_i$ from $S$ would not alter the span of the set si
 The set $S\backslash\{\vec{u_{i}}\}$ (which is just $S$ excluding $\vec{u}_i$) is smaller than $S$ but has the same span, and thus $S$ could not have been a minimal spanning set.
 Since we can repeat this process until we are left with a linearly independent set, all minimal spanning sets must be linearly independent.
 
-This relationship between an independent spanning set and the space it spans brings us to one of the most important and powerful constructions in linear algebra (which will also be the last two topic we'll cover before getting to [[Euclidean_spaces|Euclidean vector spaces]]), [[Vector_Bases_test|basis vectors and coordinate spaces]].
+This relationship between an independent spanning set and the space it spans brings us to one of the most important and powerful constructions in linear algebra (which will also be the last two topic we'll cover before getting to [[Euclidean_spaces|Euclidean vector spaces]]), [[Vector_Bases|basis vectors and coordinate spaces]].
 
 
 
