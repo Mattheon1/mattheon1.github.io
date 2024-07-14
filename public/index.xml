@@ -6,6 +6,18 @@
       <description>Last 10 notes on Burger Institute of Technology (B.I.T.)</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Euclidian Geometry and Spaces</title>
+    <link>https://mattheon1.github.io/math/Euclidean_spaces</link>
+    <guid>https://mattheon1.github.io/math/Euclidean_spaces</guid>
+    <description></description>
+    <pubDate>Sat, 13 Jul 2024 05:24:28 GMT</pubDate>
+  </item><item>
+    <title>Vector Bases and Coordinate Vectors</title>
+    <link>https://mattheon1.github.io/math/Vector_Bases</link>
+    <guid>https://mattheon1.github.io/math/Vector_Bases</guid>
+    <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most fundamental concepts in linear algebra: the ...</description>
+    <pubDate>Sat, 13 Jul 2024 05:23:44 GMT</pubDate>
+  </item><item>
     <title>Linear Independence</title>
     <link>https://mattheon1.github.io/math/linear_independence</link>
     <guid>https://mattheon1.github.io/math/linear_independence</guid>
@@ -31,12 +43,6 @@
     <pubDate>Thu, 11 Jul 2024 21:27:16 GMT</pubDate>
   </item><item>
     <title>Vector Bases and Coordinate Vectors</title>
-    <link>https://mattheon1.github.io/math/Vector_Bases</link>
-    <guid>https://mattheon1.github.io/math/Vector_Bases</guid>
-    <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most fundamental concepts in linear algebra: the ...</description>
-    <pubDate>Thu, 11 Jul 2024 21:26:30 GMT</pubDate>
-  </item><item>
-    <title>Vector Bases and Coordinate Vectors</title>
     <link>https://mattheon1.github.io/math/a</link>
     <guid>https://mattheon1.github.io/math/a</guid>
     <description>Building upon our understanding of vector spaces, linear combinations, span, and linear independence, we now turn to one of the most powerful concepts in linear algebra: the vector ...</description>
@@ -59,12 +65,6 @@
     <guid>https://mattheon1.github.io/math/Linear_combinations</guid>
     <description>The vector axioms define the properties of scalar multiplication and vector addition, but often we’ll seek to make use of both operations at once. This leads us to the more general concept of a linear combination.</description>
     <pubDate>Thu, 11 Jul 2024 05:05:04 GMT</pubDate>
-  </item><item>
-    <title>Euclidean_spaces</title>
-    <link>https://mattheon1.github.io/math/Euclidean_spaces</link>
-    <guid>https://mattheon1.github.io/math/Euclidean_spaces</guid>
-    <description></description>
-    <pubDate>Sun, 07 Jul 2024 21:52:32 GMT</pubDate>
   </item>
     </channel>
   </rss>

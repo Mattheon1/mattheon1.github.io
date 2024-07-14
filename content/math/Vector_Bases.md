@@ -25,7 +25,7 @@ The utility of this expression is immediately obvious when we try to make sense 
 
 $$
 \begin{gathered}
-\vec{u}+ \vec{v} = \left(\sum_{i=1}^{n} u_{i} \vec{e}_{i}\right) + \left(\sum_{j=1}^{n} v_{j} \vec{e}_{j}\right) = \sum_{i=1}^{n} (u_{i}+v_{i}) \vec{e}_{i} = \sum_{}{i=1}^{n} w_{i} \vec{e}_{i} = \vec{w}
+\vec{u}+ \vec{v} = \left(\sum_{i=1}^{n} u_{i} \vec{e}_{i}\right) + \left(\sum_{j=1}^{n} v_{j} \vec{e}_{j}\right) = \sum_{i=1}^{n} (u_{i}+v_{i}) \vec{e}_{i} = \sum_{i=1}^{n} w_{i} \vec{e}_{i} = \vec{w}
 \end{gathered}
 $$
 
