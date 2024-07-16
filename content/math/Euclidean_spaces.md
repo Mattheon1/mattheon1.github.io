@@ -9,6 +9,9 @@ In the pre-algebraic era, mathematical statements were often presented using a c
 Euclid's seminal work, "The Elements," laid the foundation for what we now know as Euclidean geometry. In this treatise, Euclid presented a set of axioms and postulates that he used to systematically derive a wide range of geometric propositions. These axioms were considered to be self-evident truths, and the propositions were derived using deductive reasoning. Using this system, rather than speak in terms of numbers and equality (for which the Greek's had separate concepts of), Euclid expressed his thoughts in terms of magnitudes and congruence. 
 
 The Greeks considered the ideas of quantity and size/proportion to be distinct but related concepts. To the Greeks, numbers were quantities, things to count with and were equivalent to what we would now call the natural numbers. In contrast, a magnitude was a thing that described a measurement of one object, usually a line segment, in proportion to another. This comparison of magnitudes was done through careful constructions involving circles, translation and rotation.
-![Congruence](/Images/Congruence.svg)
+
+<p align="center">
+  <img src="../Images/Congruence.svg" alt="Congruence" />
+</p>
 
 
